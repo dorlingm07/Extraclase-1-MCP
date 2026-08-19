@@ -2,11 +2,11 @@ import json
 from pathlib import Path
 from typing import Literal
 
-from mcp.server.fastmcp import FastMCP
+from mcp.server.mcpserver import MCPServer
 
 TASKS_FILE = Path(__file__).parent / "tasks.json"
 
-mcp = FastMCP("todo-server")
+mcp = MCPServer("todo-server")
 
 
 def _load_tasks() -> dict:
