@@ -1,0 +1,19 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "name": "Preparar entorno de desarrollo",
+      "description": "Instalar Python y las dependencias del servidor MCP",
+      "priority": "alta",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "name": "Documentar el servidor",
+      "description": "Escribir el README con instrucciones de instalación y uso",
+      "priority": "media",
+      "completed": true
+    }
+  ],
+  "next_id": 3
+}
