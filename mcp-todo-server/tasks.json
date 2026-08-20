@@ -5,7 +5,7 @@
       "name": "Preparar entorno de desarrollo",
       "description": "Instalar Python y las dependencias del servidor MCP",
       "priority": "alta",
-      "completed": false
+      "completed": true
     },
     {
       "id": 2,
@@ -13,7 +13,42 @@
       "description": "Escribir el README con instrucciones de instalación y uso",
       "priority": "media",
       "completed": true
+    },
+    {
+      "id": 3,
+      "name": "Probar servidor MCP",
+      "description": "Verificar que las tools respondan correctamente",
+      "priority": "media",
+      "completed": true
+    },
+    {
+      "id": 4,
+      "name": "Configurar Claude Desktop",
+      "description": "Registrar el servidor todo-server en claude_desktop_config.json",
+      "priority": "alta",
+      "completed": false
+    },
+    {
+      "id": 5,
+      "name": "Tomar capturas del cliente MCP",
+      "description": "Documentar las 4 interacciones para el Ejercicio 3",
+      "priority": "media",
+      "completed": false
+    },
+    {
+      "id": 6,
+      "name": "Probar servidor MCP",
+      "description": "Verificar que las tools respondan correctamente",
+      "priority": "media",
+      "completed": false
+    },
+    {
+      "id": 7,
+      "name": "Probar servidor MCP",
+      "description": "Verificar que las tools respondan correctamente",
+      "priority": "media",
+      "completed": false
     }
   ],
-  "next_id": 3
+  "next_id": 8
 }
